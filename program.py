@@ -65,9 +65,9 @@ def enviar_email():
 
     msg = email.message.Message()
     msg['Subject'] = "Relatório de vendas"
-    msg['From'] = 'profeduardobernardes@gmail.com'
-    msg['To'] = 'profeduardobernardes@gmail.com'
-    password = 'bwjqqfmwterkamxz'
+    msg['From'] = 'coloque o email de quem vai enviar'
+    msg['To'] = 'coloque o email de quem vai receber'
+    password = 'essa senha é fornecida pelo google para apps'
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
 
